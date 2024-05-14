@@ -180,7 +180,7 @@ multiprocess_steps:
   - name: mp_households
     begin: school_location
     num_processes: 28
-    chunk_size: 300000000
+    # chunk_size: 300000000
     slice:
       tables:
         - households

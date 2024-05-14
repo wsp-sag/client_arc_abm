@@ -125,7 +125,7 @@ trace_hh_id: 333650
 #trace_hh_id: 2
 #trace_hh_id: 1643904
 
-chunk_size: 300000000
+# chunk_size: 300000000
 
 models:
   - initialize_landuse
