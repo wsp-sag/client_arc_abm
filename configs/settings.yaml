@@ -1,4 +1,4 @@
-households_sample_size: 100
+households_sample_size: 0
 
 # input tables
 input_table_list:
@@ -123,6 +123,8 @@ skims_file: skims.omx
 use_shadow_pricing: True
 
 # chunk_size:
+chunk_method: hybrid_uss
+chunk_training_mode: explicit
 
 models:
   - initialize_landuse

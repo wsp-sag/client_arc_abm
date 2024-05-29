@@ -42,3 +42,5 @@ AUTO_MODES:
   - SHARED2PAY
   - SHARED3FREE
   - SHARED3PAY
+
+explicit_chunk: 0.2
