@@ -11,6 +11,8 @@ input_table_list:
       maz: home_zone_id
       np: hhsize
       nwrkrs_esr: num_workers
+    recode_columns:
+      home_zone_id: land_use.zone_id
     keep_columns:
       #- household_id
       - home_zone_id
